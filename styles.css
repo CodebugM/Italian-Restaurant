@@ -4,7 +4,9 @@ body {
 
 .header-image {
  background-image: url("https://media.fshoq.com/images/323/italian-cuisine-on-wooden-background-323-small.jpg");
- background-repeat: no-repeat, repeat;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 100%;
 }
 
 .restaurant-name {
@@ -21,23 +23,25 @@ body {
 }
 
 .welcome-text {
- border: 2px solid #fff;
- margin: 0 38%;
+
+ margin: 0 35%;
  margin-top: 34%;
  
 }
 
 .welcome-text h1 {
+ border: 2px solid #fff;
  color: #fff;
  font-family: "Raleway", sans serif;
  letter-spacing: 7px;
  text-align: center;
+ padding: 2%;
 }
 
 .arrow-down {
  text-align: center;
  padding-left: 49%;
- padding-top: 10%;
+ padding-top: 22%;
 }
 
 .arrow-down p {
@@ -64,11 +68,11 @@ body {
 }
 
 .main-info {
- background-image: linear-gradient(to bottom right, #385170, #142d4c);
+ background-image: linear-gradient(to bottom right, #393e46, #142d4c);
  color: #fffeec;
  
  text-align: center;
- padding: 5%;
+ padding: 5% 15%;
 }
 
 .main-info h1 {
@@ -78,4 +82,14 @@ body {
 
 .main-info p {
  font-family: 'Raleway';
+}
+
+.main-info a {
+ color: #58b368;
+ text-decoration: none;
+}
+
+.main-info a:hover {
+ color: #ff6337;
+ text-decoration: none;
 }
